@@ -13,6 +13,7 @@ class Server{
 	private static String updateRecord(String arg){
 		String array[]= arg.split("\t");
 		array[4]=new Integer((int)new Integer(array[4])+1).toString();
-		return "";
+		array[3]=getTime();
+		return arr[0]+"\t"+arr[1]+"\t"+[arr[2]+"\t"+arr[3]+"\t"+arr[4];
 	}
 }
